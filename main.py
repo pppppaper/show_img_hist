@@ -10,8 +10,7 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_
 im = imread(img_url)
 
 st.image(im, caption='I changed the caption text',
-         use_column_width=True)
-
+         use_column_width=True)))
 
 # show histgram of all colors
 hist_red, _ = np.histogram(im[:, :, 0], bins=64)
